@@ -16,16 +16,22 @@ A good branch name would be (where issue #325 is the ticket you're working on):
 git checkout -b 325-add-stellar-wallet-support
 ```
 
-## Get the test suite running
+## Setup Local Development
 
+**Option 1: Node.js (Standard)**
 Make sure you have Node.js and npm installed.
-
 ```sh
 npm install
 npm run dev
 ```
 
-Ensure everything works correctly on your local machine.
+**Option 2: Docker Compose (Easier)**
+If you prefer not to install dependencies locally, just use Docker:
+```sh
+docker-compose up
+```
+
+Ensure everything works correctly on your local machine at `http://localhost:3000`.
 
 ## Implement your fix or feature
 

@@ -154,9 +154,18 @@ Run the SQL scripts located in `sql/` in your Supabase SQL editor:
 *(Note: Create a private storage bucket named `kyc-documents` for user uploads and apply RLS policies.)*
 
 ### 5. Run the App
+
+**Option A: Standard Local Development**
 ```bash
 npm run dev
 ```
+
+**Option B: Using Docker Compose (Recommended)**
+If you have Docker installed, you can skip local Node.js installation and run:
+```bash
+docker-compose up
+```
+The app will be available at `http://localhost:3000` with hot-reloading enabled.
 
 ---
 
